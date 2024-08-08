@@ -1,0 +1,47 @@
+baseURL: 'http://sharansahublog.org/'
+languageCode: 'en-us'
+title: "Sharan's ML Chronicles"
+theme: "PaperMod"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+params:
+    homeInfoParams:
+        Title: "Welcome To Sharan's ML Chronicles \U0001F44B"
+        Content: "Hi, this is Sharan. This blog's main purpose is to document my learning notes and intuitions for a variety of 
+        problems in mathematics, statistics, and machine learning. Other than writing a ML blog, I'm a first-year PhD student in
+        the Statistics and Data Science Department at Cornell University doing research in high-dimensional statistics, nonparametric
+        estimation, reinforcement learning, and optimization."
+
+    socialIcons: # optional
+        - name: linkedin
+          url: 'https://www.linkedin.com/in/sharan-sahu/'
+        - name: twitter
+          url: 'https://twitter.com/sunny_sahu01/'
+        - name: github
+          url: 'https://github.com/sharansahu/'
+        - name: website
+          url: 'https://sharansahu.com/'

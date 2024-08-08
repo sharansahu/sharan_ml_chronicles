@@ -1,0 +1,44 @@
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin: 10px auto 0 auto; /* Top, horizontal, and bottom margins */
+    font-size: 1em;
+    color: #666;
+    max-width: 100%; /* Adjust this percentage as needed for squeezing effect */
+    text-align: center;
+    line-height: 1.4; /* Line spacing for readability */
+    padding: 0 120px; /* Padding to add space on the sides */
+}
+
+figcaption a {
+    color: #0066cc; /* Optional: Change link color */
+    text-decoration: none; /* Remove underline */
+}
+
+figcaption a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Make all text smaller */
+body {
+    font-size: 0.9em; /* Adjust as needed */
+}
+
+.post-content h2 {
+    font-size: 1.8em;
+}
+
+/* Specific adjustment for blog post content */
+.post-content {
+    font-size: 1.15em; /* Adjust as needed */
+}
